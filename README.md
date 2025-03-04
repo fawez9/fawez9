@@ -13,12 +13,14 @@ I'm **Fawez** from Tunisia 🇹🇳
 </p>
 
 ## 🔥 My Stats:
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fawez9&theme=dark" alt="GitHub Streak" />
+</p>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fawez9&show_icons=true&theme=dark)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fawez9&layout=compact&theme=dark)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=fawez9&theme=dark)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=fawez9&show_icons=true&theme=dark" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fawez9&layout=compact&theme=dark" alt="Top Langs" />
+</p>
 
 ## 🌎 Connect with Me:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/fawez-hattabi-9a3264253/)
