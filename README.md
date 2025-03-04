@@ -1,4 +1,4 @@
-# Hey 👋 What's up?
+<h1 align="center">Hey 👋 What's up?</h1>
 
 ## 👨‍💻 About Me
 I'm **Fawez** from Tunisia 🇹🇳
@@ -9,7 +9,7 @@ I'm **Fawez** from Tunisia 🇹🇳
 
 ## 🛠️ Languages & Tools
 <p>
-  <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,nextjs,nodejs,express,mongodb,mysql,postgres,docker,git,linux,python,c,java,solidity" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,nextjs,nodejs,express,mongodb,mysql,postgres,docker,git,linux,python,c,java,springboot" alt="Tech Stack" />
 </p>
 
 ## 🔥 My Stats:
