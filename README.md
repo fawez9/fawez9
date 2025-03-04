@@ -18,8 +18,8 @@ I'm **Fawez** from Tunisia 🇹🇳
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=fawez9&show_icons=true&theme=dark" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fawez9&layout=compact&theme=dark" alt="Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api?username=fawez9&show_icons=true&theme=dark" height="195" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fawez9&layout=compact&theme=dark" height="195" alt="Top Langs" />
 </p>
 
 ## 🌎 Connect with Me:
