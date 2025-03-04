@@ -21,8 +21,7 @@ I'm **Fawez** from Tunisia 🇹🇳
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Fawez&theme=dark)
 
 ## 🌎 Connect with Me:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/your-profile)
-[![YouTube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube)](https://youtube.com/your-channel)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/fawez-hattabi-9a3264253/)
 
 ---
 💻 **Let's build something awesome together!**
