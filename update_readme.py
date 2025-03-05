@@ -7,9 +7,9 @@ README_PATH = "README.md"
 
 # Themes based on streak level
 THEMES = {
-    "low": "red-dark",    # Streak < 3 days
-    "medium": "green-dark", # Streak 3-7 days
-    "high": "gold-dark"   # Streak > 7 days
+    "low": "radical",    # Streak < 3 days
+    "medium": "dark_green", # Streak 3-7 days
+    "high": "sunset-indo"   # Streak > 7 days
 }
 
 # Fetch GitHub Streak data
