@@ -8,7 +8,7 @@ README_PATH = "README.md"
 # Themes based on streak level
 THEMES = {
     "low": "radical",    # Streak < 3 days
-    "medium": "dark_green", # Streak 3-7 days
+    "medium": "merko", # Streak 3-7 days
     "high": "sunset-indo"   # Streak > 7 days
 }
 
