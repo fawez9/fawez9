@@ -9,7 +9,7 @@ README_PATH = "README.md"
 THEMES = {
     "low": "radical",    # Streak < 3 days
     "medium": "merko", # Streak 3-7 days
-    "high": "sunset-indo"   # Streak > 7 days
+    "high": "onedark"   # Streak > 7 days
 }
 
 # Fetch GitHub Streak data
