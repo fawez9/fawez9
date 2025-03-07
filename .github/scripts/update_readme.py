@@ -82,26 +82,50 @@ def update_readme_theme(streak_count):
     with open('README.md', 'r') as file:
         content = file.read()
     
-    # Update the theme in streak stats URL
+    # Update the theme in streak stats URL - preserve all other parameters
     content = re.sub(
         r'github-readme-streak-stats\.herokuapp\.com/\?user=fawez9&theme=[a-zA-Z0-9]+',
         f'github-readme-streak-stats.herokuapp.com/?user=fawez9&theme={theme}',
         content
     )
     
-    # Update the theme in GitHub stats URL
+    # Handle case where there might be additional parameters
     content = re.sub(
-        r'github-readme-stats\.vercel\.app/api\?username=fawez9&show_icons=true&theme=[a-zA-Z0-9]+',
-        f'github-readme-stats.vercel.app/api?username=fawez9&show_icons=true&theme={theme}',
+        r'github-readme-streak-stats\.herokuapp\.com/\?user=fawez9(&[^"]+&)theme=[a-zA-Z0-9]+',
+        f'github-readme-streak-stats.herokuapp.com/?user=fawez9\\1theme={theme}',
         content
     )
     
+    # Handle potential URL format with more complex parameter structure
+    streak_pattern = r'(github-readme-streak-stats\.herokuapp\.com/\?)([^"]+)'
+    
+    def update_theme_param(match):
+        base_url = match.group(1)
+        params_str = match.group(2)
+        
+        # Parse the parameters
+        params = {}
+        for param in params_str.split('&'):
+            if '=' in param:
+                key, value = param.split('=', 1)
+                params[key] = value
+        
+        # Update the theme parameter
+        params['theme'] = theme
+        
+        # Reconstruct the URL
+        new_params = '&'.join([f"{k}={v}" for k, v in params.items()])
+        return f"{base_url}{new_params}"
+    
+    content = re.sub(streak_pattern, update_theme_param, content)
+    
+    # Update the theme in GitHub stats URLs using the same pattern-based approach
+    stats_pattern = r'(github-readme-stats\.vercel\.app/api\?)([^"]+)'
+    content = re.sub(stats_pattern, update_theme_param, content)
+    
     # Update the theme in top languages URL
-    content = re.sub(
-        r'github-readme-stats\.vercel\.app/api/top-langs/\?username=fawez9&layout=compact&theme=[a-zA-Z0-9]+',
-        f'github-readme-stats.vercel.app/api/top-langs/?username=fawez9&layout=compact&theme={theme}',
-        content
-    )
+    langs_pattern = r'(github-readme-stats\.vercel\.app/api/top-langs/\?)([^"]+)'
+    content = re.sub(langs_pattern, update_theme_param, content)
     
     # Write the updated content back to README.md
     with open('README.md', 'w') as file:
