@@ -14,7 +14,7 @@ I'm **Fawez** from Tunisia 🇹🇳
 
 ## 🔥 My Stats:
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=fawez9&count_private=true&theme=radical" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.com/?user=fawez9&count_private=true&theme=radical" alt="GitHub Streak" />
 </p>
 
 <p align="center">
