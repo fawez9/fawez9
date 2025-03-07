@@ -11,11 +11,11 @@ jobs:
     steps:
       # Checkout repository
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Set up Python environment
       - name: Set up Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v4
         with:
           python-version: "3.x"
 
@@ -27,6 +27,7 @@ jobs:
       - name: Update README Theme
         id: update-script
         run: python update_readme_theme.py
+        # No need for shell specification - GitHub handles it
 
       # Commit changes if needed
       - name: Commit and Push Changes
