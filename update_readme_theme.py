@@ -2,10 +2,12 @@ import os
 import re
 from pathlib import Path
 import requests
+from datetime import datetime, timedelta
 
 # Configuration
 USERNAME = "fawez9"
 README_PATH = Path("README.md")
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # Optional but recommended
 
 # Themes based on streak level
 THEMES = {
@@ -15,13 +17,38 @@ THEMES = {
 }
 
 def get_streak_days():
-    """Fetch current GitHub streak count"""
-    url = f"https://github-readme-streak-stats.herokuapp.com/?user={USERNAME}&theme=dark"
+    """Fetch GitHub streak using GitHub API"""
+    url = f"https://api.github.com/users/{USERNAME}/events"
+    headers = {
+        "Accept": "application/vnd.github.v3+json",
+        "Authorization": f"token {GITHUB_TOKEN}" if GITHUB_TOKEN else ""
+    }
+    
     try:
-        response = requests.get(url, timeout=10)
+        response = requests.get(url, headers=headers, timeout=10)
         response.raise_for_status()
-        match = re.search(r'data-count="(\d+)"', response.text)
-        return int(match.group(1)) if match else 0
+        events = response.json()
+        
+        # Find the longest consecutive streak
+        current_streak = 0
+        last_date = None
+        
+        for event in events:
+            if 'created_at' not in event:
+                continue
+                
+            date = datetime.strptime(
+                event['created_at'], 
+                "%Y-%m-%dT%H:%M:%SZ"
+            ).date()
+            
+            if last_date is None or date == last_date - timedelta(days=1):
+                current_streak += 1
+            else:
+                break  # Exit on first break in streak
+            last_date = date
+        
+        return current_streak
     except Exception as e:
         print(f"⚠️ Error fetching streak: {e}")
         return 0
