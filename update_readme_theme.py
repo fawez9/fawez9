@@ -3,9 +3,11 @@ import re
 from pathlib import Path
 import requests
 
+# Configuration
 USERNAME = "fawez9"
 README_PATH = Path("README.md")
 
+# Themes based on streak level
 THEMES = {
     "low": "radical",
     "medium": "merko",
@@ -13,6 +15,7 @@ THEMES = {
 }
 
 def get_streak_days():
+    """Fetch current GitHub streak count"""
     url = f"https://github-readme-streak-stats.herokuapp.com/?user={USERNAME}&theme=dark"
     try:
         response = requests.get(url, timeout=10)
@@ -24,6 +27,7 @@ def get_streak_days():
         return 0
 
 def select_theme(streak_days):
+    """Choose theme based on streak duration"""
     if streak_days < 3:
         return THEMES["low"]
     if 3 <= streak_days <= 7:
@@ -31,6 +35,7 @@ def select_theme(streak_days):
     return THEMES["high"]
 
 def update_readme(theme):
+    """Update GitHub stats URLs with new theme"""
     try:
         with open(README_PATH, "r", encoding="utf-8") as file:
             content = file.read()
