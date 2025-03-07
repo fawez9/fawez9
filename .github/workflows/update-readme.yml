@@ -26,14 +26,15 @@ jobs:
       # Run the update script
       - name: Update README Theme
         id: update-script
+        env:
+          GITHUB_TOKEN: ${{ secrets.WORKFLOW_SECRET }}  # Add this line
         run: python update_readme_theme.py
-        # No need for shell specification - GitHub handles it
 
       # Commit changes if needed
       - name: Commit and Push Changes
         if: steps.update-script.outputs.changed == 'true'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.WORKFLOW_SECRET }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
