@@ -64,4 +64,7 @@ if __name__ == "__main__":
     print(f"GitHub Streak: {streak} days")
     new_theme = select_theme(streak)
     updated = update_readme(new_theme)
-    print(f"::set-output name=changed::{str(updated).lower()}")
+    
+    # Updated output method (GHES 2022+)
+    with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+        print(f"changed={str(updated).lower()}", file=f)
