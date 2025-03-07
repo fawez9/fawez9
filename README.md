@@ -14,7 +14,7 @@ I'm **Fawez** from Tunisia 🇹🇳
 
 ## 🔥 My Stats:
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?username=fawez9&theme=merko" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fawez9&theme=merko" alt="GitHub Streak" />
 </p>
 
 <p align="center">
