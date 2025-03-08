@@ -19,7 +19,7 @@ def get_streak_count():
 
 def get_streak_from_scraping():
     """Attempt to get streak count from streak-stats service."""
-    url = f"https://github-readme-streak-stats.herokuapp.com/?user={USERNAME}&theme=radical"
+    url = f"https://github-readme-streak-stats.herokuapp.com/?user={USERNAME}&count_private=true&theme=radical"
     
     try:
         response = requests.get(url)
@@ -86,7 +86,7 @@ def update_readme_theme(streak_count):
     
     # 1. Streak Stats URL
     streak_pattern = r'<img src="https://github-readme-streak-stats\.herokuapp\.com/\?user=fawez9(?:&[^"]*)" alt="GitHub Streak" />'
-    streak_replacement = f'<img src="https://github-readme-streak-stats.herokuapp.com/?user=fawez9&theme={theme}" alt="GitHub Streak" />'
+    streak_replacement = f'<img src="https://github-readme-streak-stats.herokuapp.com/?user=fawez9&count_private=true&theme={theme}" alt="GitHub Streak" />'
     
     # 2. GitHub Stats URL
     stats_pattern = r'<img src="https://github-readme-stats\.vercel\.app/api\?username=fawez9(?:&[^"]*)" height="195" alt="GitHub Stats" />'
