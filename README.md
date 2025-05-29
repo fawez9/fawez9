@@ -9,7 +9,7 @@ I'm **Fawez** from Tunisia 🇹🇳
 
 ## 🛠️ Languages & Tools
 <p>
-  <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,nextjs,nodejs,express,mongodb,mysql,postgres,docker,git,linux,python,c,java,postman,solidity,latex" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,nextjs,nodejs,express,mongodb,mysql,postgresql,docker,git,linux,python,c,java,postman,solidity,latex" alt="Tech Stack" />
 </p>
 
 ## 🔥 My Stats:
