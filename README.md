@@ -18,5 +18,8 @@ I'm **Fawez** from Tunisia 🇹🇳
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fawez9&layout=compact&theme=radical" height="195" alt="Top Langs" />
 </p>
 
+## Profile views:
+![Profile view counter on GitHub](https://komarev.com/ghpvc/?username=fawez9)
+
 ## 🌎 Connect with Me:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/fawez-hattabi-9a3264253/)
