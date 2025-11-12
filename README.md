@@ -4,7 +4,7 @@
 I'm **Fawez** from Tunisia 🇹🇳
 
 🚀 I'm a Junior Developer passionate about **Generative AI, Machine Learning , Full-Stack Development**.
-💡 I Worked with **Node.js, Express.js, MongoDB, Langchain and LangGraph**.
+💡 I Worked with **Node.js, React,Express.js, MongoDB, Nextjs,Langchain and LangGraph**.
 ⚡ In my free time, I **explore AI models and new technologies**.
 
 ## 🛠️ Languages & Tools
