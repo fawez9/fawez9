@@ -14,3 +14,6 @@ I'm **Fawez** from Tunisia 🇹🇳
 
 ## 🌎 Connect with Me:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/fawez-hattabi-9a3264253/)
+[![Gmail](hattabifawez99@gmail.com)]
+
+
