@@ -12,12 +12,6 @@ I'm **Fawez** from Tunisia 🇹🇳
   <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,nextjs,nodejs,express,mongodb,mysql,postgresql,docker,git,linux,python,c,java,postman,solidity,latex" alt="Tech Stack" />
 </p>
 
-## 🔥 My Stats:
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=fawez9&show_icons=true&theme=radical" height="195" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fawez9&layout=compact&theme=radical" height="195" alt="Top Langs" />
-</p>
-
 
 ## 🌎 Connect with Me:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/fawez-hattabi-9a3264253/)
