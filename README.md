@@ -11,13 +11,27 @@
 I'm **Fawez** from Tunisia 🇹🇳
 
 🚀 I'm a Junior Developer passionate about **Generative AI, Machine Learning , Full-Stack Development**.
-💡 I Worked with **Node.js, React,Express.js, MongoDB, Nextjs,Langchain and LangGraph**.
+💡 I Worked with **MERN-Stack, Nextjs,Langchain and LangGraph**.
 ⚡ In my free time, I **explore AI models and new technologies**.
 
 ## 🛠️ Languages & Tools
-<p>
-  <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,nextjs,nodejs,express,mongodb,mysql,postgresql,docker,git,linux,python,c,cpp,java,postman,solidity,latex" alt="Tech Stack" />
+<div>
+ <p align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,python,c,cpp,java,solidity" />
 </p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,react,nextjs" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,express" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,git,linux,postman,latex" />
+</p>
+</div>
 
 ## 📈 Stats
 <div align="center">
