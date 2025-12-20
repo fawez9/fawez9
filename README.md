@@ -17,7 +17,7 @@ I'm **Fawez** from Tunisia 🇹🇳
 ## 🛠️ Languages & Tools
 <div>
  <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fawez9&theme=dracula&background=0d1117&date_format=M%20j%5B%2C%20Y%5D" alt="fawez9" />
+  <img src="https://skillicons.dev/icons?i=js,ts,python,c,cpp,java,solidity" />
 </p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,react,nextjs" />
