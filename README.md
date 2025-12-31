@@ -38,8 +38,7 @@ I'm **Fawez** from Tunisia 🇹🇳
   <img src="https://nirzak-streak-stats.vercel.app/?user=fawez9&theme=dracula&hide_border=false" />
   <br/>
 
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=fawez9&theme=dracula
+  <img src="https://github-readme-stats.vercel.app/api?username=fawez9&theme=dracula&hide_border=false&include_all_commits=false&count_private=false"
     height="150"
   />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=fawez9&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" />
